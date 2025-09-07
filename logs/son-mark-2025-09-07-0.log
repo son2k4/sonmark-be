@@ -1,0 +1,56 @@
+07-09-2025 11:48:36.758 PM [INFO ] [restartedMain] o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor.log[68]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+07-09-2025 11:48:36.758 PM [INFO ] [restartedMain] o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor.log[68]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+07-09-2025 11:48:37.294 PM [INFO ] [restartedMain] o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn[145]: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-09-2025 11:48:37.328 PM [INFO ] [restartedMain] o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn[213]: Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+07-09-2025 11:48:37.858 PM [INFO ] [restartedMain] o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize[111]: Tomcat initialized with port 8080 (http)
+07-09-2025 11:48:37.921 PM [INFO ] [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext[301]: Root WebApplicationContext: initialization completed in 1163 ms
+07-09-2025 11:48:38.093 PM [INFO ] [restartedMain] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation[31]: HHH000204: Processing PersistenceUnitInfo [name: default]
+07-09-2025 11:48:38.149 PM [INFO ] [restartedMain] org.hibernate.Version.logVersion[44]: HHH000412: Hibernate ORM core version 6.6.26.Final
+07-09-2025 11:48:38.185 PM [INFO ] [restartedMain] o.hibernate.cache.internal.RegionFactoryInitiator.initiateService[50]: HHH000026: Second-level cache disabled
+07-09-2025 11:48:38.389 PM [INFO ] [restartedMain] o.s.o.j.persistenceunit.SpringPersistenceUnitInfo.addTransformer[87]: No LoadTimeWeaver setup: ignoring JPA class transformer
+07-09-2025 11:48:38.768 PM [INFO ] [restartedMain] org.hibernate.orm.connections.pooling.logConnectionInfo[163]: HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+07-09-2025 11:48:39.506 PM [INFO ] [restartedMain] o.h.e.t.jta.platform.internal.JtaPlatformInitiator.initiateService[59]: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+07-09-2025 11:48:39.906 PM [INFO ] [restartedMain] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory[447]: Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-09-2025 11:48:40.360 PM [WARN ] [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor[258]: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-09-2025 11:48:40.389 PM [INFO ] [restartedMain] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer.configure[80]: Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+07-09-2025 11:48:40.389 PM [WARN ] [restartedMain] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer.configure[73]: Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+07-09-2025 11:48:41.062 PM [INFO ] [restartedMain] o.s.b.d.autoconfigure.OptionalLiveReloadServer.startServer[59]: LiveReload server is running on port 35729
+07-09-2025 11:48:41.108 PM [INFO ] [restartedMain] o.s.boot.web.embedded.tomcat.TomcatWebServer.start[243]: Tomcat started on port 8080 (http) with context path '/'
+07-09-2025 11:48:50.812 PM [INFO ] [SpringApplicationShutdownHook] o.s.boot.web.embedded.tomcat.GracefulShutdown.shutDownGracefully[54]: Commencing graceful shutdown. Waiting for active requests to complete
+07-09-2025 11:48:50.812 PM [INFO ] [tomcat-shutdown] o.s.boot.web.embedded.tomcat.GracefulShutdown.doShutdown[76]: Graceful shutdown complete
+07-09-2025 11:48:50.828 PM [INFO ] [SpringApplicationShutdownHook] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.destroy[660]: Closing JPA EntityManagerFactory for persistence unit 'default'
+07-09-2025 11:58:54.723 PM [INFO ] [restartedMain] o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor.log[68]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+07-09-2025 11:58:54.739 PM [INFO ] [restartedMain] o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor.log[68]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+07-09-2025 11:58:55.355 PM [INFO ] [restartedMain] o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn[145]: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-09-2025 11:58:55.418 PM [INFO ] [restartedMain] o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn[213]: Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
+07-09-2025 11:58:55.985 PM [INFO ] [restartedMain] o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize[111]: Tomcat initialized with port 8080 (http)
+07-09-2025 11:58:56.047 PM [INFO ] [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext[301]: Root WebApplicationContext: initialization completed in 1308 ms
+07-09-2025 11:58:56.206 PM [INFO ] [restartedMain] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation[31]: HHH000204: Processing PersistenceUnitInfo [name: default]
+07-09-2025 11:58:56.253 PM [INFO ] [restartedMain] org.hibernate.Version.logVersion[44]: HHH000412: Hibernate ORM core version 6.6.26.Final
+07-09-2025 11:58:56.300 PM [INFO ] [restartedMain] o.hibernate.cache.internal.RegionFactoryInitiator.initiateService[50]: HHH000026: Second-level cache disabled
+07-09-2025 11:58:56.522 PM [INFO ] [restartedMain] o.s.o.j.persistenceunit.SpringPersistenceUnitInfo.addTransformer[87]: No LoadTimeWeaver setup: ignoring JPA class transformer
+07-09-2025 11:58:56.803 PM [INFO ] [restartedMain] org.hibernate.orm.connections.pooling.logConnectionInfo[163]: HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+07-09-2025 11:58:57.653 PM [INFO ] [restartedMain] o.h.e.t.jta.platform.internal.JtaPlatformInitiator.initiateService[59]: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+07-09-2025 11:58:57.972 PM [INFO ] [restartedMain] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory[447]: Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-09-2025 11:58:58.303 PM [WARN ] [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor[258]: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-09-2025 11:58:58.334 PM [INFO ] [restartedMain] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer.configure[80]: Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+07-09-2025 11:58:58.334 PM [WARN ] [restartedMain] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer.configure[73]: Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+07-09-2025 11:58:58.873 PM [INFO ] [restartedMain] o.s.b.d.autoconfigure.OptionalLiveReloadServer.startServer[59]: LiveReload server is running on port 35729
+07-09-2025 11:58:58.921 PM [INFO ] [restartedMain] o.s.boot.web.embedded.tomcat.TomcatWebServer.start[243]: Tomcat started on port 8080 (http) with context path '/'
+07-09-2025 11:59:02.209 PM [INFO ] [SpringApplicationShutdownHook] o.s.boot.web.embedded.tomcat.GracefulShutdown.shutDownGracefully[54]: Commencing graceful shutdown. Waiting for active requests to complete
+07-09-2025 11:59:02.225 PM [INFO ] [tomcat-shutdown] o.s.boot.web.embedded.tomcat.GracefulShutdown.doShutdown[76]: Graceful shutdown complete
+07-09-2025 11:59:02.241 PM [INFO ] [SpringApplicationShutdownHook] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.destroy[660]: Closing JPA EntityManagerFactory for persistence unit 'default'

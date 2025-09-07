@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <property name="LOG_PATTERN" value="%d{dd-MM-yyyy hh:mm:ss.SSS a} [%-5level] [%thread] %logger{50}.%M[%L]: %msg%n" />
+    <property name="APP_LOG_ROOT" value="logs"/>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${APP_LOG_ROOT}/son-mark.log</file>
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${APP_LOG_ROOT}/son-mark-%d{yyyy-MM-dd}-%i.log</fileNamePattern>
+            <maxFileSize>10MB</maxFileSize>
+        </rollingPolicy>
+    </appender>
+
+    <root level="ERROR">
+        <appender-ref ref="STDOUT" />
+    </root>
+
+    <Logger name="org.springframework" level="INFO" additivity="true">
+        <appender-ref ref="FILE"/>
+    </Logger>
+    <Logger name="org.hibernate" level="INFO" additivity="true">
+        <appender-ref ref="FILE"/>
+    </Logger>
+
+    <logger name="com.son.mark" level="DEBUG" additivity="true">
+        <appender-ref ref="FILE" />
+    </logger>
+</configuration>
+
+
